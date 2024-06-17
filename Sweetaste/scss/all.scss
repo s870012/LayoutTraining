@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul, nav {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::after,*::after{
+    box-sizing: border-box;
+    color: #3F4D45;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+image{
+    width: 100%;
+    height: auto;
+}
+
+//var setting
+$size-M:20px;
+$size-L:24px;
+$thin:300;
+$bold:600;
+$white:#FFFFFF;
+$sec-white:#EAF0ED;
+$base-color:#3F5D45;
+$sec-color:#2C4832;
+$other-color:#FFE180;
+
+// header
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 42px;
+    .logo{
+        width: 171px;
+    }
+    .menu{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 60px;
+        a{
+            font-weight: $bold;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        img{
+            display: block;
+        }
+    }
+}
+
+//banner
+.banner{
+    img{
+        display: block;
+        margin: 0 42px 60px 42px;
+    }
+}
+
+//product
+.product{
+    display: flex;
+    gap: 20px;
+    padding: 0 42px;
+    .product-list{
+        width: 31.8%;
+        text-align: center;
+        h2{
+            color: $sec-white;
+            background-color: $base-color;
+            font-size: $size-L;
+            font-weight: $bold;
+            padding: 16px 0;
+        }
+        li{
+            padding: 16px 0;
+            &:hover{
+                background-color: $sec-white;
+            }
+        }
+        a{
+            font-size: $size-L;
+            font-weight: $bold;
+        }
+    }
+    .product-content{
+        width: 68.2%;
+        .product-box{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        img{
+            display: block;
+        }
+        .name-box{
+            display: flex;
+            text-align: center;
+            border: 1px solid $sec-white;
+            .product-name{
+                width: 57.6%;
+                font-size: $size-M;
+                font-weight: $thin;
+                border-right: 1px solid $sec-white;
+                padding: 14px 0;
+            }
+            .product-price{
+                width: 43.4%;
+                font-size: $size-M;
+                font-weight: $bold;
+                padding: 14px 0;
+            }
+        }
+        .shoppingcart{
+            font-size: $size-L;
+            font-weight: $bold;
+            background-color: $sec-white;
+            text-align: center;
+            padding: 16px 0;
+            cursor: pointer;
+        }
+    }
+    .paganation{
+        display: flex;
+        justify-content: end;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        a{
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            border: 1px solid $sec-white;
+            font-size: $size-M;
+            font-weight: $thin;
+            &:hover{
+                background-color: $base-color;
+                color: $sec-white;
+            }
+        }
+    }
+}
+
+// footer
+.contact{
+    display: flex;
+    background-color: $sec-color;
+    line-height: 40px;
+    padding: 30px 0;
+    p{
+        background-color: $white;
+        padding: 16px 20px;
+    }
+    img{
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+    }
+    h2{
+        color: $sec-white;
+        font-size: $size-L;
+        margin-right: 124px;
+    }
+    #email{
+        border: none;
+    }
+    label{
+        background-color: $other-color;
+        padding: 20px 24px;
+    }
+}
+
+
+
+
