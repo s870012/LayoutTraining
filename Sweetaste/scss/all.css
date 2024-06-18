@@ -57,7 +57,7 @@ table {
 }
 
 image {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -129,9 +129,6 @@ image {
   flex-wrap: wrap;
   gap: 20px;
 }
-.product .product-content img {
-  display: block;
-}
 .product .product-content .name-box {
   display: flex;
   text-align: center;
@@ -158,6 +155,46 @@ image {
   padding: 16px 0;
   cursor: pointer;
 }
+.product .product-content .shoppingcart:active {
+  background-color: #0C3A6E;
+  color: #EAF0ED;
+}
+.product .product-item {
+  position: relative;
+}
+.product .product-item .today {
+  font-weight: 600;
+  color: #EAF0ED;
+  background-color: #3F5D45;
+  writing-mode: vertical-rl;
+  letter-spacing: 5px;
+  padding: 10px;
+  position: absolute;
+  left: 20px;
+  z-index: 1;
+}
+.product .product-item .favorite-control {
+  display: none;
+}
+.product .product-item .favorite-control:checked + .favorite-btn .like {
+  display: block;
+}
+.product .product-item .favorite-control:checked + .favorite-btn .unlike {
+  display: none;
+}
+.product .product-item .favorite-btn {
+  position: absolute;
+  z-index: 1;
+  top: 16px;
+  right: 20px;
+  cursor: pointer;
+}
+.product .product-item .favorite-btn .like {
+  display: none;
+}
+.product .product-item img {
+  display: block;
+}
 .product .paganation {
   display: flex;
   justify-content: end;
@@ -180,30 +217,61 @@ image {
   color: #EAF0ED;
 }
 
-.contact {
+.subscribe {
   display: flex;
+  align-items: center;
   background-color: #2C4832;
   line-height: 40px;
-  padding: 30px 0;
+  padding: 30px 12%;
 }
-.contact p {
+.subscribe p {
   background-color: #FFFFFF;
   padding: 16px 20px;
 }
-.contact img {
+.subscribe img {
   width: 40px;
   height: 40px;
   margin-right: 20px;
 }
-.contact h2 {
+.subscribe h2 {
   color: #EAF0ED;
   font-size: 24px;
   margin-right: 124px;
 }
-.contact #email {
+.subscribe .email {
   border: none;
+  width: 23.8%;
+  padding: 14.5px 0;
+  font-size: 20px;
 }
-.contact label {
+.subscribe label {
   background-color: #FFE180;
-  padding: 20px 24px;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+.subscribe label:active {
+  background-color: #0C3A6E;
+  color: #FFFFFF;
+}
+
+.information {
+  display: flex;
+  justify-content: space-around;
+  background-color: #EAF0ED;
+}
+.information .contact .logo {
+  max-width: 171.22px;
+  display: block;
+  margin: 38.9px 0 115.5px 0;
+}
+.information .contact p {
+  line-height: 1.5;
+}
+.information .contact img {
+  max-width: 32px;
+  margin: 30px 8px 30px 0;
+}
+.information .copyright .slogan {
+  max-width: 59.28px;
+  margin: 30px 0 45px 220px;
 }/*# sourceMappingURL=all.css.map */
