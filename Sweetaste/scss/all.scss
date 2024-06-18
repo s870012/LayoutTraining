@@ -167,50 +167,6 @@ $blue:#0C3A6E;
             }
         }
     }
-    .product-item{
-        position: relative;
-        .today{
-            font-weight: $bold;
-            color: $sec-white;
-            background-color: $base-color;
-            writing-mode: vertical-rl;
-            letter-spacing: 5px;
-            padding: 10px;
-            position: absolute;
-            left: 20px;
-            z-index: 1;
-        }
-        .favorite-control{
-            display: none;
-            &:checked + {
-                .favorite-btn{
-                    .like{
-                        display: block;
-                    }
-                }
-            }
-            &:checked + {
-                .favorite-btn{
-                    .unlike{
-                        display: none;
-                    }
-                }
-            }
-        }
-        .favorite-btn{
-            position: absolute;
-            z-index: 1;
-            top: 16px;
-            right: 20px;
-            cursor: pointer;
-            .like{
-                display: none;
-            }
-        }
-        img{
-            display: block;
-        }
-    }
     .paganation{
         display: flex;
         justify-content: end;
@@ -231,6 +187,51 @@ $blue:#0C3A6E;
                 color: $sec-white;
             }
         }
+    }
+}
+//product-item
+.product-item{
+    position: relative;
+    .today{
+        font-weight: $bold;
+        color: $sec-white;
+        background-color: $base-color;
+        writing-mode: vertical-rl;
+        letter-spacing: 5px;
+        padding: 10px;
+        position: absolute;
+        left: 20px;
+        z-index: 1;
+    }
+    .favorite-control{
+        display: none;
+        &:checked + {
+            .favorite-btn{
+                .like{
+                    display: block;
+                }
+            }
+        }
+        &:checked + {
+            .favorite-btn{
+                .unlike{
+                    display: none;
+                }
+            }
+        }
+    }
+    .favorite-btn{
+        position: absolute;
+        z-index: 1;
+        top: 16px;
+        right: 20px;
+        cursor: pointer;
+        .like{
+            display: none;
+        }
+    }
+    img{
+        display: block;
     }
 }
 
