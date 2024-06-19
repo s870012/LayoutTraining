@@ -10,16 +10,23 @@
 <body>
     <div class="wrap">
         <header class="header">
-            <a href="" ><img src="image/logo-all-dark.svg" alt="logo" class="logo"></a>
+            <input type="checkbox" id="menu" class="menu-ctrl">
+            <label for="menu" class="menu-btn">
+                <img src="image/dehaze-24px.png" alt="menu-open" class="menu-open">
+                <img src="image/Vector.png" alt="menu-close" class="menu-close">
+            </label>
+            <a href="#"><img src="image/logo-all-dark.svg" alt="logo" class="logo"></a>
+            <a href="#"><img src="image/logotype-sm-dark.svg" alt="logo-m" class="logo-m"></a>
             <nav class="menu">
                 <li><a href="">首頁</a></li>
                 <li><a href="">甜點</a></li>
                 <li><a href="">登入</a></li>
-                <a href=""><img src="image/shopping_cart.png" alt="shopping_cart"></a>
             </nav>
+            <a href=""><img src="image/shopping_cart.png" alt="shopping_cart"></a>
         </header>
         <main>
-            <section class="banner"><img src="image/banner.png" alt="">
+            <section class="banner">
+                <img src="image/banner.png" alt="banner">
             </section>
             <section class="product">
                 <div class="product-list">
@@ -45,7 +52,7 @@
                                 <p class="product-name">焦糖馬卡龍</p>
                                 <p class="product-price">NT$450</p>
                             </div>
-                            <div class="shoppingcart">加入購物車</div>
+                            <button class="shoppingcart">加入購物車</button>
                         </div>
                         <div class="product-item">
                             <div class="today">本日精選</div>
@@ -59,7 +66,7 @@
                                 <p class="product-name">焦糖馬卡龍</p>
                                 <p class="product-price">NT$450</p>
                             </div>
-                            <div class="shoppingcart">加入購物車</div>
+                            <button class="shoppingcart">加入購物車</button>
                         </div>
                         <div class="product-item">
                             <div class="today">本日精選</div>
@@ -73,7 +80,7 @@
                                 <p class="product-name">焦糖馬卡龍</p>
                                 <p class="product-price">NT$450</p>
                             </div>
-                            <div class="shoppingcart">加入購物車</div>
+                            <button class="shoppingcart">加入購物車</button>
                         </div>
                         <div class="product-item">
                             <div class="today">本日精選</div>
@@ -87,7 +94,7 @@
                                 <p class="product-name">焦糖馬卡龍</p>
                                 <p class="product-price">NT$450</p>
                             </div>
-                            <div class="shoppingcart">加入購物車</div>
+                            <button class="shoppingcart">加入購物車</button>
                         </div>
                         <div class="product-item">
                             <div class="today">本日精選</div>
@@ -101,7 +108,7 @@
                                 <p class="product-name">焦糖馬卡龍</p>
                                 <p class="product-price">NT$450</p>
                             </div>
-                            <div class="shoppingcart">加入購物車</div>
+                            <button class="shoppingcart">加入購物車</button>
                         </div>
                         <div class="product-item">
                             <div class="today">本日精選</div>
@@ -115,7 +122,7 @@
                                 <p class="product-name">焦糖馬卡龍</p>
                                 <p class="product-price">NT$450</p>
                             </div>
-                            <div class="shoppingcart">加入購物車</div>
+                            <button class="shoppingcart">加入購物車</button>
                         </div>
                     </div>
                     <div>
@@ -124,35 +131,40 @@
                             <li><a href="#">1</a></li>
                             <li><a href="#">2</a></li>
                             <li><a href="#">3</a></li>
-                            <li><a href="#" class="material-icons">arrow_right</a></li>
+                            <li><a href="#" class="page-next material-icons">arrow_right</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
-            <div class="subscribe">
+    </div>
+    <footer class="footer">
+        <div class="subscribe">
+            <div class="subscribe-mail">
                 <img src="image/logo-light.svg" alt=""></img>
                 <h2>訂閱你我的甜蜜郵件</h2>
+            </div>
+            <div class="subscribe-mail">
                 <p class="material-icons">email</p>
                 <input type="email" name="" id="" class="email" >
                 <label for="" class="material-icons">arrow_forward</label>
             </div>
-            <div class="information">
-                <div class="contact">
-                    <a href=""><img src="image/logotype-sm-dark.svg" alt="logo" class="logo"></a>
-                    <p><a href="tel:+886 7 1234 5678">07-1234-5678</a></p>
-                    <p><a href="sweetaste@email.com">sweetaste@email.com</a></p>
-                    <p>800 高雄市新興區幸福路 520 號</p>
-                    <a href=""><img src="image/ic-line@.svg" alt="Line"></a>
-                    <a href=""><img src="image/ic-facebook.svg" alt="Facebook"></a>
-                </div>
-                <div class="copyright">
-                    <img src="image/sm-今天是個吃甜點的好日子.svg" alt="slogan" class="slogan">
-                    <p>© 2018 Sweetaste* All Rights Reserved</p>
-                </div>
+        </div>
+        <div class="information">
+            <div class="contact">
+                <a href=""><img src="image/logotype-sm-dark.svg" alt="logo" class="logo"></a>
+                <p><a href="tel:+886 7 1234 5678">07-1234-5678</a></p>
+                <p><a href="sweetaste@email.com">sweetaste@email.com</a></p>
+                <p>800 高雄市新興區幸福路 520 號</p>
+                <a href=""><img src="image/ic-line@.svg" alt="Line"></a>
+                <a href=""><img src="image/ic-facebook.svg" alt="Facebook"></a>
             </div>
-        </footer>
-    </div>
+            <div class="copyright">
+                <div class="slogan">今天是個—<br/>&nbsp吃甜點的好日子。</div>
+                <!-- <img src="image/sm-今天是個吃甜點的好日子.svg" alt="slogan" class="slogan"> -->
+                <p>© 2018 Sweetaste* All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
