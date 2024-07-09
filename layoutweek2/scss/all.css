@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+}
+
+ol, ul, nav {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.col-1 {
+  width: 8.3333%;
+  margin: 0 12px;
+}
+
+.col-2 {
+  width: 16.6666%;
+  margin: 0 12px;
+}
+
+.col-3 {
+  width: 24.999%;
+  margin: 0 12px;
+}
+
+.col-4 {
+  width: 33.3332%;
+  margin: 0 12px;
+}
+
+.col-5 {
+  width: 41.6665%;
+  margin: 0 12px;
+}
+
+.col-6 {
+  width: 49.9998%;
+  margin: 0 12px;
+}
+
+.col-7 {
+  width: 58.3331%;
+  margin: 0 12px;
+}
+
+.col-8 {
+  width: 66.6664%;
+  margin: 0 12px;
+}
+
+.col-9 {
+  width: 74.9997%;
+  margin: 0 12px;
+}
+
+.col-10 {
+  width: 83.333%;
+  margin: 0 12px;
+}
+
+.col-11 {
+  width: 91.6663%;
+  margin: 0 12px;
+}
+
+.col-12 {
+  width: 99.9996%;
+  margin: 0 12px;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.material-symbols-outlined {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img {
+  display: inline-block;
+}
+
+.name {
+  font-size: 128px;
+  line-height: 192px;
+  color: #00FFA3;
+}
+
+.title {
+  font-size: 64px;
+  line-height: 96px;
+}
+
+.text-lg {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text-xlg {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.color-b {
+  color: #000000;
+}
+
+.color-sb {
+  color: #15161D;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.header {
+  background-color: #000000;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 61px;
+  padding: 40px 0 24px 0;
+}
+.header .menu li {
+  max-width: 23.6%;
+}
+.header .intro-box {
+  display: flex;
+  gap: 24px;
+}
+.header .intro-box .selfie {
+  height: 848px;
+  margin: 72px 0;
+}
+.header .intro-box .intro {
+  margin: 232px 0;
+}
+.header .intro-box .intro .contact-btn {
+  background-color: #FFFFFF;
+}
+.header .intro-box .position-rr {
+  position: relative;
+}
+.header .intro-box .position-ar {
+  position: absolute;
+  right: 0;
+}
+
+.introduction-bg {
+  background-image: url("../image/background-img.png");
+  padding: 160px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: 24px;
+}
+
+.about-box {
+  gap: 134px;
+}
+.about-box .exp-box {
+  margin: 206px 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-box .exp-box .exp {
+  width: 47%;
+}
+.about-box .about {
+  margin: 160px 0;
+}
+
+.contact-bg {
+  background-color: #15161D;
+}
+.contact-bg .contact-box {
+  padding: 96px 0;
+  gap: 113px;
+}
+.contact-bg .contact-box .contact-me {
+  align-items: center;
+  gap: 16px;
+}
+.contact-bg .social-box {
+  gap: 20px;
+}
+.contact-bg .social-box .img-hover {
+  border-radius: 40px;
+}
+.contact-bg .social-box .img-hover:hover {
+  box-shadow: 0 4px 16px 3px #9094FF, 0 4px 4px 0 #000000;
+}
+
+.project-box {
+  padding: 160px 0;
+  flex-direction: column;
+  align-items: end;
+  gap: 16px;
+}
+.project-box .project-right {
+  flex-direction: column;
+  gap: 28px;
+}
+.project-box .project-right .main-top {
+  gap: 24px;
+}
+.project-box .project-right .main-bottom {
+  justify-content: space-between;
+}
+.project-box .seemore-btn {
+  display: block;
+  background-color: #000000;
+  max-width: 185px;
+}
+.project-box .describe {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 40px 0;
+}/*# sourceMappingURL=all.css.map */

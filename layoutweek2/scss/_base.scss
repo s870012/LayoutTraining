@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*,*::after,*::before{
+    box-sizing: border-box;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $white;
+}
+//grid-system
+.col-1{
+    width: 8.3333%;
+    margin:0 12px;
+}
+.col-2{
+    width: 16.6666%;
+    margin:0 12px;
+}
+.col-3{
+    width: 24.999%;
+    margin:0 12px;
+}
+.col-4{
+    width: 33.3332%;
+    margin:0 12px;
+}
+.col-5{
+    width: 41.6665%;
+    margin:0 12px;
+}
+.col-6{
+    width: 49.9998%;
+    margin:0 12px;
+}
+.col-7{
+    width: 58.3331%;
+    margin:0 12px;
+}
+.col-8{
+    width: 66.6664%;
+    margin:0 12px;
+}
+.col-9{
+    width: 74.9997%;
+    margin:0 12px;
+}
+.col-10{
+    width: 83.333%;
+    margin:0 12px;
+}
+.col-11{
+    width: 91.6663%;
+    margin:0 12px;
+}
+.col-12{
+    width: 99.9996%;
+    margin:0 12px;
+}
+.mr-0 {
+    margin-right: 0;
+}
+.ml-0{
+    margin-left: 0;
+}
+//icon
+.material-symbols-outlined{
+    font-size: 16px; 
+}
+//container
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+//img
+img{
+    max-width: 100%;
+    height: auto;
+}
+.img{
+    display: inline-block;
+}
+//text-size
+.name{
+    font-size: $xxx-large;
+    line-height: $name-lh;
+    color: $william;
+}
+.title{
+    font-size: $xx-large;
+    line-height: $title-lh;
+}
+.text-lg{
+    font-size: $large;
+    line-height: $text-lh-l;
+}
+.text-xlg{
+    font-size: $x-large;
+    line-height: $text-lh-xl;
+}
+//text-color
+.color-b{
+    color: $black;
+}
+.color-sb{
+    color: $sec-black;
+}
+//btn
+.btn{
+    padding: 12px 24px;
+    border-radius: 32px;
+}

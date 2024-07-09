@@ -1,0 +1,117 @@
+// header
+.header{
+    background-color: $black;
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 61px;
+        padding: 40px 0 24px 0;
+        li{
+            max-width: 23.6%;
+        }
+    }
+    .intro-box{
+        display: flex;
+        gap: 24px;
+        .selfie{
+            height: 848px;
+            margin: 72px 0;
+        }
+        .intro{
+            margin: 232px 0;
+            .contact-btn{
+                background-color: $white;
+            }
+        }
+        .position-rr{
+            position: relative;
+        }
+        .position-ar{
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+//introduction
+.introduction-bg{
+    background-image: url("../image/background-img.png");
+    padding: 160px 0;
+}
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 24px;
+}
+//about
+.about-box{
+    gap: 134px;
+    .exp-box{
+        margin: 206px 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .exp{
+            width: 47%;
+        }
+    }
+    .about{
+        margin: 160px 0;
+    }
+}
+//contact
+.contact-bg{
+    background-color: $sec-black;
+    .contact-box{
+        padding: 96px 0;
+        gap: 113px;
+        .contact-me{
+            align-items: center;
+            gap: 16px;
+        }
+    }
+    .social-box{
+        gap: 20px;
+        .img-hover{
+            border-radius: 40px;
+            &:hover{
+                box-shadow: 0 4px 16px 3px $shadow, 0 4px 4px 0 $black; 
+            }
+        }
+        
+    }
+}
+//project
+.project-box{
+    padding: 160px 0;
+    flex-direction: column;
+    align-items: end;
+    gap: 16px;
+    .project-right{
+        flex-direction: column;
+        gap: 28px;
+        .main-top{
+            gap: 24px;
+        }
+        .main-bottom{
+            justify-content: space-between;
+        }
+    }
+    .seemore-btn{
+        display: block;
+        background-color: $black;
+        max-width: 185px;
+    }
+    .describe{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+//footer
+.footer{
+    background-color: $black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
