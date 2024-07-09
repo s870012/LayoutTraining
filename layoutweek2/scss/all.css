@@ -176,6 +176,10 @@ img {
   color: #15161D;
 }
 
+.tac {
+  text-align: center;
+}
+
 .btn {
   padding: 12px 24px;
   border-radius: 32px;
@@ -193,6 +197,10 @@ img {
 .header .menu li {
   max-width: 23.6%;
 }
+.header .menu a:hover {
+  color: #00FFA3;
+  border-bottom: 1px solid #00FFA3;
+}
 .header .intro-box {
   display: flex;
   gap: 24px;
@@ -207,7 +215,10 @@ img {
 .header .intro-box .intro .contact-btn {
   background-color: #FFFFFF;
 }
-.header .intro-box .position-rr {
+.header .intro-box .intro .contact-btn:hover {
+  background-color: #9094FF;
+}
+.header .intro-box .position-r {
   position: relative;
 }
 .header .intro-box .position-ar {
@@ -228,6 +239,10 @@ img {
   gap: 24px;
 }
 
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 .about-box {
   gap: 134px;
 }
@@ -238,6 +253,9 @@ img {
 }
 .about-box .exp-box .exp {
   width: 47%;
+  border: 1px solid #E3E3E3;
+  padding: 16px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
 }
 .about-box .about {
   margin: 160px 0;
@@ -274,8 +292,9 @@ img {
   flex-direction: column;
   gap: 28px;
 }
-.project-box .project-right .main-top {
-  gap: 24px;
+.project-box .project-right .describe {
+  flex-direction: column;
+  justify-content: space-between;
 }
 .project-box .project-right .main-bottom {
   justify-content: space-between;
@@ -285,9 +304,8 @@ img {
   background-color: #000000;
   max-width: 185px;
 }
-.project-box .describe {
-  flex-direction: column;
-  justify-content: space-between;
+.project-box .seemore-btn:hover {
+  background-color: #9094FF;
 }
 
 .footer {
