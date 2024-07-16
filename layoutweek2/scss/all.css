@@ -130,7 +130,7 @@ table {
 }
 
 .material-symbols-outlined {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .container {
@@ -180,6 +180,14 @@ img {
   text-align: center;
 }
 
+.aic {
+  align-items: center;
+}
+
+.inline-b {
+  display: inline-block;
+}
+
 .btn {
   padding: 12px 24px;
   border-radius: 32px;
@@ -204,13 +212,11 @@ img {
 .header .intro-box {
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 .header .intro-box .selfie {
   height: 848px;
   margin: 72px 0;
-}
-.header .intro-box .intro {
-  margin: 232px 0;
 }
 .header .intro-box .intro .contact-btn {
   background-color: #FFFFFF;
@@ -218,12 +224,8 @@ img {
 .header .intro-box .intro .contact-btn:hover {
   background-color: #9094FF;
 }
-.header .intro-box .position-r {
-  position: relative;
-}
-.header .intro-box .position-ar {
-  position: absolute;
-  right: 0;
+.header .intro-box .text-r {
+  text-align: right;
 }
 
 .introduction-bg {
@@ -258,7 +260,8 @@ img {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
 }
 .about-box .about {
-  margin: 160px 0;
+  align-items: center;
+  padding: 160px 0;
 }
 
 .contact-bg {
@@ -287,6 +290,9 @@ img {
   flex-direction: column;
   align-items: end;
   gap: 16px;
+}
+.project-box .ml-auto {
+  margin-left: auto;
 }
 .project-box .project-right {
   flex-direction: column;

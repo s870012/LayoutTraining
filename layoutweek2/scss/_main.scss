@@ -17,12 +17,12 @@
     .intro-box{
         display: flex;
         gap: 24px;
+        align-items: center;
         .selfie{
             height: 848px;
             margin: 72px 0;
         }
         .intro{
-            margin: 232px 0;
             .contact-btn{
                 background-color: $white;
                 &:hover{
@@ -30,12 +30,8 @@
                 }
             }
         }
-        .position-r{
-            position: relative;
-        }
-        .position-ar{
-            position: absolute;
-            right: 0;
+        .text-r{
+            text-align: right;
         }
     }
 }
@@ -68,7 +64,8 @@
         }
     }
     .about{
-        margin: 160px 0;
+        align-items: center;
+        padding: 160px 0;
     }
 }
 //contact
@@ -99,6 +96,9 @@
     flex-direction: column;
     align-items: end;
     gap: 16px;
+    .ml-auto{
+        margin-left: auto;
+    }
     .project-right{
         flex-direction: column;
         gap: 28px;
