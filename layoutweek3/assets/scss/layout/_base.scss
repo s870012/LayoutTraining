@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    color: var(--color-primary);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.img, .block{
+    display: block;
+}
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.title{
+    font-size: var(--text-xxl);
+    font-weight: var(--weight-b);
+    text-align: center;
+}
+
+//grid system
+.col-1{
+    width: 8.3333%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-2{
+    width: 16.6667%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-3{
+    width: 25%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-4{
+    width: 33.3333%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-5{
+    width: 41.66667%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-6{
+    width: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col7{
+    width: 58.3333%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-8{
+    width: 66.66667%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-9{
+    width: 75%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-10{
+    width: 83.3333%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-11{
+    width: 91.66667%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-12{
+    width: 100%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.minus-my-12{
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+//color
+.color-sec{
+    color: var(--color-secondary);
+}
+.color-white{
+    color: var(--color-white);
+}
+
+//text
+.text-ar{
+    text-align: right;
+}
+.text-ac{
+    text-align: center;
+}
+.text-al{
+    text-align-last: left;
+}
+
+//flex
+.d-flex{
+    display: flex;
+}
+.flex-d-col{
+    flex-direction: column;
+}
+.jcc{
+    justify-content: center;
+}
+.jcfe{
+    justify-content: flex-end;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+.gap-16{
+    gap: 16px;
+}
+.gap-24{
+    gap: 24px;
+}
+.gap-32{
+    gap: 32px;
+}
+.gap-48{
+    gap: 48px;
+}
+.gap-64{
+    gap: 64px;
+}
+
+//padding margin
+.pxy-16{
+    padding: 16px;
+}
+.px-6{
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.py-6{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.py-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.py-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pt-16{
+    padding-top: 16px;
+}
+.pt-24{
+    padding-top: 24px;
+}
+.pt-32{
+    padding-top: 32px;
+}
+.pt-48{
+    padding-top: 48px;
+}
+.pb-8{
+    padding-bottom: 8px;
+}
+.pb-12{
+    padding-bottom: 12px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pb-32{
+    padding-bottom: 32px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.my-auto{
+    margin: 0 auto;
+}
+
+
+//width height
+.mw-36{
+    max-width: 36px;
+}
+.mw-48{
+    max-width: 48px;
+}
+.mw-80{
+    max-width: 80px;
+}
+.mw-100{
+    max-width: 100px;
+}
+.h-205{
+    height: 205px;
+}
+
+//btn
+.btn{
+    padding: 16px 0;
+}
+.btn-sm{
+    padding: 6px 12px;
+}
